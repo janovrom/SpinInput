@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f08f059c8688494b8efa16d4034e5ff, type: 3}
+  m_Name: EnglishLowercase
+  m_EditorClassIdentifier: 
+  actions:
+  - displayName: a
+  - displayName: b
+  - displayName: c
+  - displayName: d
+  - displayName: e
+  - displayName: f
+  - displayName: g
+  - displayName: h
+  - displayName: i
+  - displayName: j
+  - displayName: k
+  - displayName: l
+  - displayName: m
+  - displayName: n
+  - displayName: o
+  - displayName: p
+  - displayName: q
+  - displayName: r
+  - displayName: s
+  - displayName: t
+  - displayName: u
+  - displayName: v
+  - displayName: w
+  - displayName: x
+  - displayName: y
+  - displayName: z
