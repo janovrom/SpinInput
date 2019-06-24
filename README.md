@@ -8,3 +8,5 @@ So the spinner is implemented in Unity camera space and its keys are placed simp
 The character sets can be easily switched as they are implemented as ScriptableObject, so it's only a matter of changing references.
 
 I was quite shameless about coding the input field as it is made by stripping the old UI InputField (Unity 5.3. made public on [github](https://github.com/tenpn/unity3d-ui/blob/master/UnityEngine.UI/UI/Core/InputField.cs)) of all stuff regarding virtual keyboards (and obsolete calls). The input was replaced by sending virtual KeyEvents to active input field.
+
+TODO: Requires some user testing (positions of buttons, its sizes, etc.)
