@@ -6,3 +6,5 @@ So I was wondering, why should I use the standard soft keyboard on Android. It's
 
 So the spinner is implemented in Unity camera space and its keys are placed simply on cylinder in different depth. The cylinder is automatically aligned w.r.t. the camera position and its position on the screen to allow the perspective projection to take care of the depth perception and sizing. That's why it can be used in VR since the UI elements are not simply placed on screen. 
 The character sets can be easily switched as they are implemented as ScriptableObject, so it's only a matter of changing references.
+
+I was quite shameless about coding the input field as it is made by stripping the old UI InputField (Unity 5.3. made public on [github](https://github.com/tenpn/unity3d-ui/blob/master/UnityEngine.UI/UI/Core/InputField.cs)) of all stuff regarding virtual keyboards (and obsolete calls).
